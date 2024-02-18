@@ -2,17 +2,21 @@ import requests
 from bs4 import BeautifulSoup
 import re
 
+# import networkx as nx
+# import matplotlib.pyplot as plt
+from graphviz import Digraph
+
 IDs = [
     269646,
     305929,
     265132,
-    # 266290,
-    # 286674,
-    # 275618,
-    # 276060,
-    # 303644,
-    # 264716,
-    # 269028,
+    266290,
+    286674,
+    275618,
+    276060,
+    303644,
+    264716,
+    269028,
 ]  # seed mathematicians ids
 
 
@@ -122,6 +126,18 @@ def print_tree(mathematician, level=0):
         print_tree(student, level + 1)
 
 
+def draw_tree(mathematicians):
+    dot = Digraph(comment="Mathematicians Tree")
+
+    for id, mathematician in mathematicians.items():
+        str_id = str(id)
+        label = f"{mathematician.name}\n{mathematician.nationality}\nStudents: {len(mathematician.students)}"
+        dot.node(str_id, label)
+        if mathematician.advisor:
+            dot.edge(str(mathematician.advisor.id), str_id)
+    dot.render("mathematicians_tree", view=True)
+
+
 def main():
     mathematicians = {}
     for initID in IDs:
@@ -150,9 +166,8 @@ def main():
             else:
                 advisor = mathematicians[advisor_id]
             Mathematician.add_advisor(mathematician, advisor)
-    root_mathematician = mathematicians["147797"]
-    print_tree(root_mathematician)
-    print(mathematicians)
+    # root_mathematician = mathematicians["147797"]
+    draw_tree(mathematicians)
 
 
 if __name__ == "__main__":

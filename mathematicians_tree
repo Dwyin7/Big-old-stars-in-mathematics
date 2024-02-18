@@ -1,0 +1,417 @@
+// Mathematicians Tree
+digraph {
+	269646 [label="
+Turkan Yeliz Gokcer 
+turkey
+Students: 0"]
+	110609 -> 269646
+	110609 [label="
+Oktay  Duman 
+turkey
+Students: 1"]
+	110594 -> 110609
+	110594 [label="
+Cihan  Orhan 
+turkey
+Students: 1"]
+	77998 -> 110594
+	77998 [label="
+Öner  Çakar 
+UNKNOWN
+Students: 1"]
+	305929 [label="
+Pranav  Gokhale 
+unitedstates
+Students: 0"]
+	80812 -> 305929
+	80812 [label="
+Frederic Tsyh-An Chong 
+unitedstates
+Students: 1"]
+	71812 -> 80812
+	71812 [label="
+Anant  Agarwal 
+unitedstates
+Students: 1"]
+	40909 -> 71812
+	40909 [label="
+John Leroy Hennessy 
+unitedstates
+Students: 1"]
+	94545 -> 40909
+	94545 [label="
+Richard Bruce Kieburtz 
+unitedstates
+Students: 1"]
+	21212 -> 94545
+	21212 [label="
+Akira  Ishimaru 
+unitedstates
+Students: 1"]
+	35108 -> 21212
+	35108 [label="
+Gedaliahu  Held 
+unitedstates
+Students: 1"]
+	144842 -> 35108
+	144842 [label="
+Samuel  Silver 
+unitedstates
+Students: 1"]
+	64503 -> 144842
+	64503 [label="
+John Clarke Slater 
+unitedstates
+Students: 1"]
+	79749 -> 64503
+	79749 [label="
+Percy Williams Bridgman 
+unitedstates
+Students: 1"]
+	35094 -> 79749
+	35094 [label="
+Wallace Clement Sabine 
+unitedstates
+Students: 1"]
+	67041 -> 35094
+	67041 [label="
+John  Trowbridge 
+unitedstates
+Students: 1"]
+	132487 -> 67041
+	132487 [label="
+Joseph  Lovering 
+unitedstates
+Students: 1"]
+	80886 -> 132487
+	80886 [label="
+Benjamin  Peirce 
+unitedstates
+Students: 1"]
+	147797 -> 80886
+	147797 [label="
+Nathaniel  Bowditch 
+UNKNOWN
+Students: 1"]
+	265132 [label="
+Vefa  Goksel 
+unitedstates
+Students: 0"]
+	12419 -> 265132
+	12419 [label="
+Nigel  Boston 
+unitedstates
+Students: 1"]
+	11730 -> 12419
+	11730 [label="
+Barry Charles Mazur 
+unitedstates
+Students: 1"]
+	15155 -> 11730
+	15155 [label="
+Ralph Hartzler Fox 
+unitedstates
+Students: 1"]
+	7461 -> 15155
+	7461 [label="
+Solomon  Lefschetz 
+unitedstates
+Students: 1"]
+	7451 -> 7461
+	7451 [label="
+William Edward Story 
+germany
+Students: 1"]
+	32858 -> 7451
+	32858 [label="
+Carl Gottfried Neumann 
+germany
+Students: 1"]
+	57706 -> 32858
+	57706 [label="
+Friedrich Julius Richelot 
+germany
+Students: 1"]
+	15635 -> 57706
+	15635 [label="
+Carl Gustav Jacob Jacobi 
+germany
+Students: 1"]
+	41423 -> 15635
+	41423 [label="
+Enno Heeren Dirksen 
+germany
+Students: 1"]
+	57659 -> 41423
+	57659 [label="
+Johann Tobias Mayer 
+germany
+Students: 1"]
+	66476 -> 57659
+	66476 [label="
+Abraham Gotthelf Kästner 
+germany
+Students: 5"]
+	57670 -> 66476
+	57670 [label="
+Christian August Hausen 
+germany
+Students: 5"]
+	72669 -> 57670
+	72669 [label="
+Johann Christoph Wichmannshausen 
+germany
+Students: 5"]
+	21235 -> 72669
+	21235 [label="
+Otto  Mencke 
+germany
+Students: 5"]
+	137705 -> 21235
+	137705 [label="
+Jakob  Thomasius 
+germany
+Students: 5"]
+	143630 -> 137705
+	143630 [label="
+Friedrich  Leibniz 
+germany
+Students: 5"]
+	266290 [label="
+Dušan  Joksimović 
+netherlands
+Students: 0"]
+	66288 -> 266290
+	66288 [label="
+Fabian Jérôme Ziltener 
+switzerland
+Students: 1"]
+	26635 -> 66288
+	26635 [label="
+Dietmar Arno Salamon 
+germany
+Students: 1"]
+	25029 -> 26635
+	25029 [label="
+Diederich  Hinrichsen 
+germany
+Students: 1"]
+	21254 -> 25029
+	21254 [label="
+Heinz  Bauer 
+germany
+Students: 1"]
+	46735 -> 21254
+	46735 [label="
+Otto  Haupt 
+germany
+Students: 1"]
+	46993 -> 46735
+	46993 [label="
+Georg  Rost 
+germany
+Students: 1"]
+	51693 -> 46993
+	51693 [label="
+Friedrich Emil Prym 
+germany
+Students: 1"]
+	18331 -> 51693
+	18331 [label="
+Ernst Eduard Kummer 
+germany
+Students: 1"]
+	25484 -> 18331
+	25484 [label="
+Heinrich Ferdinand Scherk 
+germany
+Students: 1"]
+	18603 -> 25484
+	18603 [label="
+Friedrich Wilhelm Bessel 
+germany
+Students: 1"]
+	18231 -> 18603
+	18231 [label="
+Carl Friedrich Gauß 
+germany
+Students: 3"]
+	18230 -> 18231
+	18230 [label="
+Johann Friedrich Pfaff 
+germany
+Students: 3"]
+	66476 -> 18230
+	286674 [label="
+Kevin  Kokot 
+germany
+Students: 0"]
+	24714 -> 286674
+	24714 [label="
+Holger  Dette 
+germany
+Students: 1"]
+	25021 -> 24714
+	25021 [label="
+Norbert  Henze 
+germany
+Students: 1"]
+	19622 -> 25021
+	19622 [label="
+Dietrich  Morgenstern 
+germany
+Students: 1"]
+	19571 -> 19622
+	19571 [label="
+Werner Johannes Schmeidler 
+germany
+Students: 1"]
+	7862 -> 19571
+	7862 [label="
+Edmund  Landau 
+germany
+Students: 1"]
+	4642 -> 7862
+	4642 [label="
+Ferdinand Georg Frobenius 
+germany
+Students: 1"]
+	7486 -> 4642
+	7486 [label="
+Karl Theodor Wilhelm Weierstraß 
+germany
+Students: 1"]
+	29458 -> 7486
+	29458 [label="
+Christoph  Gudermann 
+germany
+Students: 1"]
+	57667 -> 29458
+	57667 [label="
+Bernhard Friedrich Thibaut 
+germany
+Students: 1"]
+	66476 -> 57667
+	275618 [label="
+Thomas M. Kolokotrones 
+unitedstates
+Students: 0"]
+	109109 -> 275618
+	109109 [label="
+James M. Robins 
+unitedstates
+Students: 1"]
+	276060 [label="
+Seyi  Lagoke 
+australia
+Students: 0"]
+	276061 -> 276060
+	276061 [label="
+Thuan  Thai 
+UNKNOWN
+Students: 1"]
+	303644 [label="
+Masaru  Nagaoka 
+japan
+Students: 0"]
+	189365 -> 303644
+	189365 [label="
+Keiji  Oguiso 
+japan
+Students: 1"]
+	189058 -> 189365
+	189058 [label="
+Yujiro  Kawamata 
+japan
+Students: 1"]
+	188665 -> 189058
+	188665 [label="
+Shigeru  Iitaka 
+japan
+Students: 1"]
+	20660 -> 188665
+	20660 [label="
+Kunihiko  Kodaira 
+japan
+Students: 1"]
+	45944 -> 20660
+	45944 [label="
+Shokichi  Iyanaga 
+japan
+Students: 1"]
+	55699 -> 45944
+	55699 [label="
+Teiji  Takagi 
+japan
+Students: 1"]
+	7298 -> 55699
+	7298 [label="
+David  Hilbert 
+germany
+Students: 1"]
+	7404 -> 7298
+	7404 [label="
+C. L. Ferdinand (Carl Louis) Lindemann 
+germany
+Students: 1"]
+	7401 -> 7404
+	7401 [label="
+C. Felix (Christian) Klein 
+germany
+Students: 2"]
+	7402 -> 7401
+	7402 [label="
+Julius  Plücker 
+germany
+Students: 2"]
+	29642 -> 7402
+	29642 [label="
+Christian Ludwig Gerling 
+germany
+Students: 2"]
+	18231 -> 29642
+	264716 [label="
+Aubain  Nzokem 
+canada
+Students: 0"]
+	31301 -> 264716
+	31301 [label="
+Neal  Madras 
+unitedstates
+Students: 1"]
+	5129 -> 31301
+	5129 [label="
+Frank Ludvig Spitzer 
+unitedstates
+Students: 1"]
+	7616 -> 5129
+	7616 [label="
+Donald A. Darling 
+unitedstates
+Students: 1"]
+	10385 -> 7616
+	10385 [label="
+Morgan  Ward 
+unitedstates
+Students: 1"]
+	7868 -> 10385
+	7868 [label="
+Eric Temple Bell 
+unitedstates
+Students: 1"]
+	7611 -> 7868
+	7611 [label="
+Frank Nelson Cole 
+unitedstates
+Students: 1"]
+	7401 -> 7611
+	269028 [label="
+Anatolii  Prokhorchuk 
+singapore
+Students: 0"]
+	269029 -> 269028
+	269029 [label="
+Justin  Dauwels 
+UNKNOWN
+Students: 1"]
+}
