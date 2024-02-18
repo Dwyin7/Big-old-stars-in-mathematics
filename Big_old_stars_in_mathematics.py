@@ -131,7 +131,7 @@ def draw_tree(mathematicians):
 
     for id, mathematician in mathematicians.items():
         str_id = str(id)
-        label = f"{mathematician.name}\n{mathematician.nationality}\nStudents: {len(mathematician.students)}"
+        label = f"{mathematician.name}\n{mathematician.nationality}\nStudents: {len(mathematician.students)} \nDescendants: {mathematician.num_descendants}"
         dot.node(str_id, label)
         if mathematician.advisor:
             dot.edge(str(mathematician.advisor.id), str_id)
